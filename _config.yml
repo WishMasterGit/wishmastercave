@@ -75,7 +75,17 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: cactus
 theme_config:
-	colorscheme: dark
+  colorscheme: dark
+
+## discus
+discus:
+  enabled: true
+  shortname: wishmastercave
+
+## social links
+social_links:
+  github: https://github.com/WishMasterGit/
+  linkedin:  https://www.linkedin.com/in/stas-tkachenko-5226bb17/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
