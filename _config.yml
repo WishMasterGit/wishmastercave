@@ -78,11 +78,6 @@ theme: cactus
 theme_config:
   colorscheme: dark
 
-## discus
-discus:
-  enabled: true
-  shortname: wishmastercave
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

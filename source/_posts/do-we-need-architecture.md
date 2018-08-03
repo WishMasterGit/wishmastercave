@@ -14,7 +14,7 @@ Software architect is role not title, there no way in current state of software 
 
 Software architecture is collaborative process of formalizing common knowledge about software usually done by expert developers working on current project. This also implies that same expert cannot generate software architecture for any project but only project he did work on.
 
-By formalizing common knowledge onto 
+By formalizing common knowledge in form of documentation you simplifying future decision making about how and what exactly we need to do in order to add new functionality in to our system.  
 
 ## References:
 
