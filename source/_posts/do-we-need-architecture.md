@@ -3,8 +3,7 @@ title: Do we need an architect
 date: 2018-08-03 14:15:33
 tags:
 ---
-
-Here I think about software architecture and software architect role
+Some thoughts about architecture
 
 Software architecture is the tool that helps to make educated decision about new features added to software as well as identify how the feature would be created in first place.
 
