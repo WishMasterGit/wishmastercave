@@ -1,3 +1,9 @@
+---
+title: Quick start
+date: 2018-11-13 14:15:33
+tags:
+---
+
 # Quick start FAQ
 
 ## project for vs code
