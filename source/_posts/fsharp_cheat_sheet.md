@@ -1,5 +1,5 @@
 ---
-title: Quick start
+title: Quick start fsharp
 date: 2018-11-13 14:15:33
 tags:
 ---

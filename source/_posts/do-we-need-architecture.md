@@ -21,3 +21,4 @@ By formalizing common knowledge in form of documentation you simplifying future 
 * [Who Needs an Architect? Martin Fowler](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
 * [What is software architecture? Fritz Soms](https://dl.acm.org/citation.cfm?id=2389879#abstract)
 * [My one note](https://onedrive.live.com/?Software%20Architecture&section-id={B759FF1E-D03A-4592-9301-B108DAD55E62}&page-id={7C8D339B-7CB0-4D28-B176-6BE6F1E8C7BB}&end)
+* [Presentation](/assets/krdev3_architect.pdf)
