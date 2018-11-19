@@ -24,3 +24,7 @@ $ git remote add origin ...
 $ git push -u origin --all
 
 ```
+
+### Windows git credential manager
+
+[Git Credential Manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)
