@@ -15,3 +15,7 @@ Initially this is good start for vanilla haxe (dk what it means though), article
 Than there is another totally web oriented approach that probably even easier to start
 
 [Haxe Loader for Webpack](https://github.com/jasononeil/webpack-haxe-loader)
+
+At the end I compiled both approaches:
+
+[Haxe + webpack + vscode template](https://github.com/WishMasterGit/haxe-webpack-vscode-template)
