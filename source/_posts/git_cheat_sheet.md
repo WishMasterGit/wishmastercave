@@ -25,6 +25,12 @@ $ git push -u origin --all
 
 ```
 
+### Remove folder
+
+```bash
+$ git rm -r --cached path_to_your_folder/
+```
+
 ### Windows git credential manager
 
 [Git Credential Manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)
