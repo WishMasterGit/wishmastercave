@@ -9,4 +9,5 @@ tags:
 ```bash
 :%s/foo/bar/g
 ```
+
 [substitute](http://vim.wikia.com/wiki/Search_and_replace);
