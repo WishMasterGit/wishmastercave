@@ -29,3 +29,10 @@ This means that Docker stays as perfect tool for testing but still not ready for
 This is way to go as for now
 install
 
+```shell
+pip install virtualenv
+```
+
+then in VSCode select your environment 'python: select...'
+
+Use Terminal: Create Integrated.. in order to activate venv
