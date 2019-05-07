@@ -1,15 +1,13 @@
 ---
-title: Azure DevOps tricks
-date: 2018-08-03 14:15:33
+title: Azure CLI 
+date: 2019-05-07 14:15:33
 tags:
 ---
 
-## Simple authentication and REST API Access:
+## Azure CLI cheat sheet
 
-Generate PAT in Azure DevOps then
+to change subscription
 
-```F#
-  let authHeader = "Basic " + Convert.ToBase64String(ASCIIEncoding.ASCII.GetBytes(String.Format("{0}:{1}", "", pat))
+```bash
+az account set --subscription <name or id>
 ```
-
-Than basically you can use [Azure DevOps REST API](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-5.0)
