@@ -1,7 +1,7 @@
 ---
 title: BambooHR API howto
 date: 2019-04-03  15:41:00
-tags:
+tags: programming
 ---
 
 ## URL compositions

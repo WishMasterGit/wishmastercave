@@ -1,7 +1,7 @@
 ---
 title: Azure CLI 
 date: 2019-05-07 14:15:33
-tags:
+tags: programming
 ---
 
 ## Azure CLI cheat sheet

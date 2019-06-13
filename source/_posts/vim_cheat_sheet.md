@@ -1,7 +1,7 @@
 ---
 title: Vim Cheat sheet 
 date: 2018-12-23 14:15:33
-tags:
+tags: programming
 ---
 
 ## Find and replace

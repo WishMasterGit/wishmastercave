@@ -1,7 +1,7 @@
 ---
 title: Shortcuts
 date: 2018-11-16 11:46:15
-tags:
+tags: programming
 ---
 
 # VSCode

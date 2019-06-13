@@ -1,7 +1,7 @@
 ---
 title: Quick start fsharp
 date: 2018-11-13 14:15:33
-tags:
+tags: programming
 ---
 
 # Quick start FAQ

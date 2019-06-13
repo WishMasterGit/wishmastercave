@@ -1,7 +1,7 @@
 ---
 title: Do we need an architect
 date: 2018-08-03 14:15:33
-tags:
+tags: programming
 ---
 Some thoughts about architecture
 

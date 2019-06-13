@@ -1,7 +1,7 @@
 ---
 title: "Management pearls"
 date: 2018-11-23 14:15:33
-tags:
+tags: programming
 ---
 
 ## About scrum

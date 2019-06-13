@@ -78,6 +78,8 @@ theme: cactus
 theme_config:
   colorscheme: dark
 
+google_maps_api_key: AIzaSyBzXcfMQbPyjppQ9ULjpbw81oUSTZ1_ZLg
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

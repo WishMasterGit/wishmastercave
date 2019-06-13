@@ -1,7 +1,7 @@
 ---
 title: Python cheat sheet
 date: 2018-27-02 18:39:00
-tags:
+tags: programming
 ---
 
 ## Python dev environment

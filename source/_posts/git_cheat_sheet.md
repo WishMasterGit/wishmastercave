@@ -1,7 +1,7 @@
 ---
 title: GIT cheat sheet 
 date: 2018-09-24 14:15:33
-tags:
+tags: programming
 ---
 
 ## Commands
