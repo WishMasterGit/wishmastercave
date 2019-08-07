@@ -19,18 +19,26 @@ $ git clean -fd
 ### Add origin
 
 ```bash
-$ git remote add origin ...
+git remote add origin ...
 
-$ git push -u origin --all
+git push -u origin --all
 
 ```
 
 ### Remove folder
 
 ```bash
-$ git rm -r --cached path_to_your_folder/
+git rm -r --cached path_to_your_folder/
 ```
 
 ### Windows git credential manager
 
 [Git Credential Manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)
+
+
+### Cleanup local branches
+
+```bash
+git remote prune origin --dry-run
+
+```
