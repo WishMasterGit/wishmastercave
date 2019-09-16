@@ -1,8 +1,9 @@
 ---
-title: Backlog or not backlog 
+title: Backlog or not backlog[Draft] 
 date: 2019-09-15  15:41:00
 tags: planning
 ---
+## [Draft]
 
 Here is the question. What if developer can make feature or program or task in time, without bugs and meeting all
 the requirements you asked for? Does he still required to put backlog items into the tracking system?
