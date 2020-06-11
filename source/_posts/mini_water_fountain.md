@@ -18,9 +18,9 @@ You can add anything else you can find outdoor, like shells/branches/rocks etc.
 
 ## Steps
 
-![material](/assets/mwf/IMG_2442.JPEG)
+![material](IMG_2442.JPEG)
 
-![pump](/assets/mwf/IMG_2443.JPEG)
+![pump](IMG_2443.JPEG)
 
 Put the pump to the drawer and start adding rocks around it. Don't glue stones to the drawer.
 For the second and other layers glue stones together.

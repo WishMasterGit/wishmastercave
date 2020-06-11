@@ -7,6 +7,8 @@
 # page within your website.
 projects_url: https://github.com/WishMasterGit/
 
+post_asset_folder: true
+
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
 # Configure the navigation menu.
