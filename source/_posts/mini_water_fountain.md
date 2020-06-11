@@ -18,12 +18,22 @@ You can add anything else you can find outdoor, like shells/branches/rocks etc.
 
 ## Steps
 
-![material](IMG_2442.JPEG)
+![material](IMG_2422.JPEG)
 
-![pump](IMG_2443.JPEG)
+![pump](IMG_2423.JPEG)
 
 Put the pump to the drawer and start adding rocks around it. Don't glue stones to the drawer.
+
+![layer](IMG_2424.JPEG)
+
 For the second and other layers glue stones together.
 Once you reach the desired height, cut the pipe and add hot glue around the pipe to better project the current.
+
+![tube](IMG_2426.JPEG)
+
 Add the water and test the current, you can regulate the power of the pump to achieve the desired effect.
 You can add stone on top or leave it like that.
+
+![almost there](IMG_2427.JPEG)
+
+![done](IMG_2434.JPEG)
