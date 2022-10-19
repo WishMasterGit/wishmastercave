@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node
 ADD scaffolds /app/scaffolds/
 ADD source /app/source/
 ADD themes /app/themes/
