@@ -6,9 +6,7 @@ COPY /_config.yml /app/_config.yml
 COPY /package.json /app/package.json
 ENV HEXO_SERVER_PORT=4000
 
-RUN \
-  apt-get update && \
-  npm install -g hexo-cli
+RUN npm install -g hexo-cli
 
 WORKDIR /app
 EXPOSE ${HEXO_SERVER_PORT}
