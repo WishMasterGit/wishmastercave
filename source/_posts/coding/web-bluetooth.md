@@ -9,8 +9,10 @@ tags: programming
 [Web Bluetooth API specification](https://webbluetoothcg.github.io/web-bluetooth/) is not finalized yet, the spec authors are actively looking for enthusiastic developers to try out this API and give [feedback on the spec](https://github.com/WebBluetoothCG/web-bluetooth/issues) and [https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EBluetooth](feedback on the implementation.)
 
 Bluetooth references:
-[Bluetooth specifications](https://www.bluetooth.com/specifications/specs/)
-[Bluetooth company identifiers](https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/)
+
+- [Bluetooth specifications](https://www.bluetooth.com/specifications/specs/)
+- [Bluetooth company identifiers](https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/)
+- [Bluetooth numbers database](https://github.com/NordicSemiconductor/bluetooth-numbers-database) usefull for connecting to services etc; 
 
 ## Parcel https cheat-sheet
 install mkcert (brew or choco) than

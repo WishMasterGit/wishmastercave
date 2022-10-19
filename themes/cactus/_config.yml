@@ -99,7 +99,7 @@ page_width: 50
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: true
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
@@ -115,7 +115,7 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: true
+  enabled: false
   shortname: wishmastercave
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
