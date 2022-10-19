@@ -1,4 +1,4 @@
-FROM arm64/node:slim
+FROM node:slim
 ADD scaffolds /app/scaffolds/
 ADD source /app/source/
 ADD themes /app/themes/
