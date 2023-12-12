@@ -15,7 +15,7 @@ tags: programming
 ## Examples
 
 ```bash
- docker pull jupiter/datascience-notebook
+ docker pull jupyter/datascience-notebook
 ```
 
 Now we can build and run the container and target it to local folder for output files
