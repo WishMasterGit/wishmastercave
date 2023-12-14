@@ -27,3 +27,8 @@ Now we can build and run the container and target it to local folder for output 
 where arguments are port to listen, folder to target and container to run
 
 -v paramter here has next format -v {host_path}:{container_path}
+
+with container running this way you can either work with jupiter notebook through your browser or using VSCode you can open remote window by
+attaching to running container and with jupiter extension write code directly from VSCode
+
+Happy codding
