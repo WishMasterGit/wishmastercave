@@ -21,7 +21,9 @@ tags: programming
 Now we can build and run the container and target it to local folder for output files
 
 ```bash
- docker run it -p 8888:8888 -v D:\Code\Python\Grokking_ML\jupiter_notebooks jupyter/datascience-notebook
+ docker run -it -p 8888:8888 -v D:/Code/Python/Grokking_ML/jupiter_notebooks:/home/jovyan/projects jupyter/datascience-notebook
 ```
 
 where arguments are port to listen, folder to target and container to run
+
+-v paramter here has next format -v {host_path}:{container_path}
