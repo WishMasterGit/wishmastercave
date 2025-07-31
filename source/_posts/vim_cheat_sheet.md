@@ -1,9 +1,20 @@
 ---
 title: Vim Cheat sheet 
-date: 2018-12-23 14:15:33
+date: 2025-8-31 1:17:00
 tags: programming
 ---
 
+First of all install lazy vim
+[lazyvim](https://www.lazyvim.org/)
+than run checkhealth command and install all the missing pieces
+also you might need to install iterm and zsh for fun and giggles
+
+btw it makes sense to change capslock to ctrl instead of escape in nonergonomic keyboards
+
+
+
+
+initial post: date: 2018-12-23 14:15:33
 ## Find and replace
 
 ```bash
