@@ -10,9 +10,10 @@ than run checkhealth command and install all the missing pieces
 also you might need to install iterm and zsh for fun and giggles
 
 btw it makes sense to change capslock to ctrl instead of escape in nonergonomic keyboards
-
+actually it doesn't make live easier Capslock = ESC forever
 
 initial post: date: 2018-12-23 14:15:33
+
 ## Find and replace
 
 ```bash
@@ -21,6 +22,8 @@ initial post: date: 2018-12-23 14:15:33
 
 [substitute](http://vim.wikia.com/wiki/Search_and_replace);
 
+**ciw** - *N ciw replacement_word <Esc>
+**cgn** -*N cgn replacement_word <Esc> .
 
 ## VSCode Vim
 
