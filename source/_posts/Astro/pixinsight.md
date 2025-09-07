@@ -25,3 +25,24 @@ support
 16. Combine light and rgb with LRGBcombination
 17. Use curves to adjust the gradients
 18. Add stars back with PixelMath plugin: apply formula ~((~rgb)*(~stars))
+
+## SOH DeepSky Algorythm
+
+1. As usual start with Script > Batch Processing > Weightedbakchprocessing
+2. Open result folder from NINA and select autocropped images
+3. Select output folder
+4. Notice that there is a exposure tolerance that can be set in Dark Files, set it lower for perfect results
+5. After the processing open _drizzle_autocrop files
+6. Rename files to match filters, just makes it easier later (SOH in this case)
+7. Appy dynamic crop to all files, this makes it easier to extract background later
+8. Add Images to image container, makes it easier to batch process
+9. Run BlurXTerminator
+10. If you Drizzled you images use Integer resample before NoiseXTerminator
+11. Run NoiseXTerminator
+12. Run GRXPert for background extraction, select all images in container and run script
+13. Apply statistical stretch to all images in container
+14. Use LRGBcombination, put H into L and G, O into B and S into R
+15. After creatin new colored image apply StarXTerminator
+16. To remove green from the stars inver, apply SCNR and invert again
+17. Open NarrowbandNormalization script and run it with SHO settings
+18. Use color masks with curves to enchance the colors, use convolution to blur the mask
