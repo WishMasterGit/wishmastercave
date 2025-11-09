@@ -3,6 +3,13 @@ title: Pixinsight tricks
 date: 08-25-2025
 tags: astro
 ---
+## Image integration tricks
+
+For WBPP script:
+
+1. in order to use multiple nights and group dark, bias, light etc by night rename folder that contain each night like "Night 1", "Night 2" etc...
+folders can be anything not necessarly "Night X" than you keywords to group by night adding "NIGHT" keyword
+2. To separate Darks even more use exposre tolerance and lower it down on the Darks tab
 
 ## Basic DeepSky Algorythm
 
@@ -24,7 +31,7 @@ support
 15. remove stars from the RGB and light with StarX
 16. Combine light and rgb with LRGBcombination
 17. Use curves to adjust the gradients
-18. Add stars back with PixelMath plugin: apply formula ~((~rgb)*(~stars))
+18. Add stars back with PixelMath plugin: apply formula \~((\~rgb)\*(\~stars))
 
 ## SOH DeepSky Algorythm
 
@@ -40,9 +47,10 @@ support
 10. If you Drizzled you images use Integer resample before NoiseXTerminator
 11. Run NoiseXTerminator
 12. Run GRXPert for background extraction, select all images in container and run script
+12. (a) alternativly use gradient correction
 13. Apply statistical stretch to all images in container
 14. Use LRGBcombination, put H into L and G, O into B and S into R
-15. After creatin new colored image apply StarXTerminator
+15. After creation new colored image apply StarXTerminator
 16. To remove green from the stars inver, apply SCNR and invert again
 17. Open NarrowbandNormalization script and run it with SHO settings
 18. Use color masks with curves to enchance the colors, use convolution to blur the mask
