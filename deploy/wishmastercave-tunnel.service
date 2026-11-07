@@ -1,0 +1,48 @@
+[Unit]
+Description=Cloudflare Tunnel for wishmastercave.com
+After=network-online.target wishmastercave-web.service
+Wants=network-online.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/cloudflared --no-autoupdate --config /etc/wishmastercave/cloudflared.yml tunnel run
+Restart=on-failure
+RestartSec=5s
+TimeoutStartSec=60s
+
+DynamicUser=yes
+LoadCredential=tunnel.json:/etc/wishmastercave/tunnel.json
+UMask=0077
+
+# Public internet and DNS only, plus the one local origin. No LAN, tailnet or link-local.
+IPAddressDeny=127.0.0.0/8 ::1/128 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 100.64.0.0/10 169.254.0.0/16 fc00::/7 fe80::/10
+IPAddressAllow=127.0.0.1/32 127.0.0.53/32
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX AF_NETLINK
+
+CapabilityBoundingSet=
+AmbientCapabilities=
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+InaccessiblePaths=-/run/media -/media -/mnt -/run/user -/run/tailscale
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectHostname=yes
+ProtectClock=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectProc=invisible
+ProcSubset=pid
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged @resources
+
+[Install]
+WantedBy=multi-user.target

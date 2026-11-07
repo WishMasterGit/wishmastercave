@@ -1,0 +1,11 @@
+# Locally managed, so a Cloudflare dashboard compromise cannot add routes to other local services.
+tunnel: 3354e184-366a-4f93-a309-a39bf5e6afea
+credentials-file: /run/credentials/wishmastercave-tunnel.service/tunnel.json
+no-autoupdate: true
+
+ingress:
+  - hostname: wishmastercave.com
+    service: http://127.0.0.1:8080
+  - hostname: www.wishmastercave.com
+    service: http://127.0.0.1:8080
+  - service: http_status:404
