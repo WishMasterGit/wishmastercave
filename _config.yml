@@ -81,3 +81,7 @@ theme_config:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Do not advertise the generator version in page metadata
+meta_generator: false
+updated_option: date

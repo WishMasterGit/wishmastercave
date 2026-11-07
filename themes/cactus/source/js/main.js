@@ -112,3 +112,21 @@ $(document).ready(function() {
     }
   }
 });
+
+/**
+ * Footer and sidebar actions. These live here rather than in inline handlers
+ * so the Content Security Policy can forbid inline scripts.
+ */
+$(document).ready(function() {
+  $(document).on("click", "[data-toggle-target]", function(event) {
+    event.preventDefault();
+    $($(this).attr("data-toggle-target")).toggle();
+  });
+  $(document).on("click", "[data-scroll-top]", function(event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "fast");
+  });
+  $("[data-hover-toggle]").on("mouseover mouseout", function() {
+    $($(this).attr("data-hover-toggle")).toggle();
+  });
+});
